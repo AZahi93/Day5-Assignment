@@ -1,0 +1,23 @@
+#!/bin/bash -x
+
+	echo "please enter your first number: "
+read a
+	echo "Second number: "
+read b
+	echo "Third number: "
+read c
+	echo "Fourh number: "
+read d
+	echo "Fifth number: "
+read e
+
+sum=$(( $a + $b + $c + $d + $e ))
+avg=$(( $sum/5 ))
+
+
+echo "The sum of these numbers is: "$sum
+echo "The Average of these numbers is: "$avg
+
+
+
+
